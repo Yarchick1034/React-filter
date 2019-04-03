@@ -1,0 +1,33 @@
+.filter {
+  padding: 10px;
+}
+
+.filter-field {
+  max-width: 300px;
+  input,
+  .ant-calendar-picker {
+    margin: 2px 0;
+    width: 100%;
+  }
+}
+
+.user-list {
+  padding: 10px;
+}
+
+.user-card {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #444;
+  span {
+    margin: 0 0 0 10px;
+  }
+  .avatar {
+    width: 100px;
+    height: 45px;
+  }
+}
+
+.ant-pagination {
+  margin: 0 10px;
+}

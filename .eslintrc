@@ -1,0 +1,38 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "plugins": ["import", "react"],
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "^16.8.5"
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "eqeqeq": ["warn", "always"],
+    "import/export": "error",
+    "import/first": ["error", "absolute-first"],
+    "import/no-duplicates": "error",
+    "react/no-did-mount-set-state": "error",
+    "react/no-did-update-set-state": "off",
+    "react/no-unused-state": "warn",
+    "react/prop-types": "off",
+    "no-unused-vars": "warn",
+    "no-unused-labels": "warn",
+    "no-console": "warn",
+    "no-undef": "error",
+    "camelcase": ["warn"]
+  }
+}
